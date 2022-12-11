@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@100;300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap');
+
 .location-data {
     width: 100%;
     height: 50px;
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.location-text {
+    font-size: small;
+    padding-left: 12px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .location-button {
@@ -18,6 +28,7 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-bar {
@@ -65,37 +76,35 @@ body {
     float: left;
 }
 
-#nav-logo
-{
+#nav-logo {
     padding-left: 120px;
     padding-top: 30px;
 
 }
-.nav-links
-{
+
+.nav-links {
     float: left;
     padding-left: 20px;
     padding-top: 35px;
 
 
 }
-th
-{
+
+th {
     float: left;
 }
-a
-{
+
+a {
     color: black;
     text-decoration: none;
 }
 
-.nav-items
-{
+.nav-items {
     float: left;
     padding-left: 40px;
 }
-.nav-right-items
-{
+
+.nav-right-items {
     width: 210.5px;
     height: 51px;
     float: left;
@@ -104,46 +113,42 @@ a
     right: 0;
     margin-right: 131.22px;
 }
-.right-nav-outer
-{
-    padding-top:25px ;
+
+.right-nav-outer {
+    padding-top: 25px;
     float: left;
 }
-#right-item1
-{
+
+#right-item1 {
     width: 50%;
     border-left: 20px;
     border-width: 5px;
     border-color: gray;
 }
-.rignt items
-{
 
-}
-#right-item2
-{
+#right-item2 {
     width: 50%;
 }
-#sign-in
-{
+
+#sign-in {
     padding-left: 10px;
 }
-#cart-icon
-{
+
+#cart-icon {
     width: 51px;
     height: 51px;
 }
-#cart-icon-box
-{
+
+#cart-icon-box {
     margin-bottom: 20px;
 
 }
-.right-table-items
-{
+
+.right-table-items {
     padding-top: 17px;
 }
-#vertical-bar
-{
+
+#vertical-bar {
     width: 1px;
     height: 30px;
     background-color: rgb(158, 156, 156);
@@ -151,9 +156,320 @@ a
     margin-right: 5px;
     margin-top: 10px;
 }
-#welcome-to-kfc
-{
+
+#welcome-to-kfc {
     width: 100%;
     height: 137px;
     background-color: rgb(252, 241, 241);
+}
+
+.image-allu {
+    margin: 0;
+}
+
+#post-order-strip {
+    width: 576px;
+    height: 20px;
+
+}
+
+.strip {
+    height: 20px;
+    width: 6px;
+    background-color: red;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    margin-top: -5px;
+}
+
+#welcome-inner {
+    width: 576px;
+    height: 137px;
+    padding-left: 15%;
+}
+
+#welcome {
+    width: 576px;
+    height: 107px;
+
+}
+
+#welcome-sentance {
+    padding-top: 30px;
+}
+
+#browse-category-outer-container {
+    width: 1570px;
+    height: 932px;
+    margin-left: 270px;
+}
+
+#browse-inner-container {
+    height: 198px;
+    width: 1483px;
+
+}
+
+#line-divider {
+    width: 1124px;
+    height: 86px;
+    border-top: 1px solid rgb(70, 68, 68);
+    position: absolute;
+    display: flex;
+
+    margin-top: 40px;
+}
+
+#browse-word {
+    padding-top: 100px;
+    padding-bottom: 55px;
+    width: 360px;
+}
+
+.cards {
+    width: 336px;
+    height: 336px;
+    float: left;
+    margin: 10px;
+    background-color: rgb(245, 239, 239);
+}
+
+.card-image {
+    width: 336px;
+    height: 248px;
+}
+
+.menu-text {
+    width: 336px;
+    height: 56px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.all-menu-text {
+    text-align: center;
+    padding-top: 25px;
+}
+
+#arrow {
+    transform: scale(1.5);
+    padding-left: 5px;
+}
+
+.offer-section {
+    width: 1689px;
+    height: 708px;
+    background-color: rgb(17, 17, 17);
+    margin-top: 60px;
+    margin-left: 270px;
+}
+
+#offer-sec {
+    width: 100%;
+    height: 708px;
+    background-color: rgb(17, 17, 17);
+}
+
+#offers-deals-text {
+    color: white;
+}
+
+#deals {
+    color: white;
+    position: absolute;
+    display: flex;
+    right: 0;
+    margin-right: 131.22px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#offer-table {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.card2 {
+    width: 310px;
+    height: 398px;
+    float: left;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.card2-image {
+    width: 310px;
+    height: 234.8px;
+    border-radius: 10px;
+}
+
+.card-heading {
+    color: rgb(214, 2, 2);
+    margin-top: -6px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+.card-descriptioin {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -24px;
+    font-size: small;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-link {
+    font-size: small;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-right: 20px;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: rgb(87, 82, 82);
+
+}
+
+.button-div2 {
+    margin-bottom: 10px;
+    float: left;
+}
+
+.redeem-button {
+    background-color: rgb(253, 249, 249);
+    color: rgb(8, 8, 8);
+    margin-left: 15px;
+    border: none;
+    height: 44px;
+    width: 133px;
+    border-radius: 40px;
+    outline-color: black;
+    outline-width: 1px;
+    outline-style: solid;
+    margin-bottom: 10px;
+}
+
+.card-link-div {
+    width: 133px;
+    height: 44px;
+}
+
+.link-button-outer-div {
+    width: 310px;
+    height: 45px;
+    margin-top: 22px
+}
+
+.footer-section {
+    padding-top: 100px;
+    height: 438px;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+}
+
+.footer-elements {
+    margin: 0px 100px 100px 100px;
+    width: 1728px;
+    height: 156px;
+}
+
+.footer-signature {
+    width: 1728px;
+    height: 48px;
+    margin-top: 226px;
+    margin-left: 95px;
+    padding-top: 10px;
+}
+
+.kfc-logo-down {
+    width: 60px;
+    height: 156px;
+    float: left;
+    padding-top: 22px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.ui-title {
+    float: left;
+    width: 122px;
+    height: 156px;
+}
+
+.footer-links {
+    float: left;
+    width: 122px;
+    height: 156px;
+    list-style-type: none;
+
+
+}
+
+.footer-link-items {
+    line-height: 25px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: small;
+    color: white;
+}
+
+.a-p-store {
+    float: left;
+    padding-left: 30px;
+    padding-top: 22px;
+}
+
+.find-kfc-word {
+    color: white;
+    font-weight: 400;
+    font-size: small;
+    padding-left: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.find-a-kfc {
+    float: left;
+    width: 122px;
+    height: 156px;
+    padding-top: 22px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+#location-dow {
+    margin-top: 10px;
+}
+
+.copyright-text {
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    float: left;
+    margin-left: 700px;
+}
+
+.social-icons {
+    list-style-type: none;
+    float: left;
+}
+
+.list-soc {
+    display: inline;
+   
+}
+.social-media
+{
+    position: absolute;
+    display: flex;
+    right: 0;
+    margin-right: 125px;
 }
